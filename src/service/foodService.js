@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:8080'
+const API_URL = 'https://foodcourt-backend-production.up.railway.app'
 import { toast } from "react-toastify";
 
 export const addFood = async (foodData, image,token) => {
