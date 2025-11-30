@@ -35,9 +35,9 @@ const Menubar = ({ toggleSidebar }) => {
                             <i className="bi bi-cart"></i> Orders</Link>
                         <Link className="list-group-item list-group-item-action list-group-item-light p-3" to="/messages">
                             <i className="bi bi-cart"></i> Messages</Link>
-                        {!token && <button onClick={() => navigate("/login")} className='btn btn-primary' style={{ width: "60%", "marginBottom": "10px", "marginRight": "5px" }}>Sign In</button>}
+                        {!token && //<button onClick={() => navigate("/login")} className='btn btn-primary' style={{ width: "60%", "marginBottom": "10px", "marginRight": "5px" }}>Sign In</button>}
                         {token && <button onClick={() => logOut()} className='btn btn-danger' style={{ width: "60%", "marginBottom": "10px", "marginRight": "10px" }} >Sign Out</button>}
-                        {!token && <button className='btn btn-success' style={{ width: "60%", "marginBottom": "10px" }} >Sign up</button>}
+                        {!token && //<button className='btn btn-success' style={{ width: "60%", "marginBottom": "10px" }} >Sign up</button>}
                     </ul>
 
                 </div>
