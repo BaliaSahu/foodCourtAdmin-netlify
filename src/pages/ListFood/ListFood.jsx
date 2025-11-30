@@ -24,7 +24,7 @@ const ListFood = () => {
         } catch (error) {
             // console.log(token)
             console.log(error);
-            toast.error("Error Encounterd while fetching details " + error);
+            //toast.error("Error Encounterd while fetching details " + error);
         }
 
 
